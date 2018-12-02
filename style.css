@@ -1,0 +1,125 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "OpenSans-Regular";
+}
+
+.list {
+    outline: 1px solid #c1c1c1;
+}
+
+.students__button{
+    background-color: green;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    cursor: pointer;
+    /* margin: 2px 2px; */
+    border-radius: 8px;
+}
+
+.students__title{
+    font-size: 40px;
+    margin: 0 0 30px 0;    
+}
+
+.students{
+    margin: 0 0 30px 0; 
+}
+
+.list{
+    width: 100%;
+    display: flex;
+    height: auto;
+    flex-wrap: wrap;
+}
+
+.list__row{
+    width: 100%;
+    display: flex;
+}
+
+.list__body .list__row:hover{
+    background-color: #FFFFE0;
+}
+
+.list__header{
+    font-family: "OpenSans-Bold";
+    width: 100%;
+    
+}
+
+.list__cell{
+    padding: 10px 5px 10px 5px;
+    width: 20%;
+    outline: 1px solid #c1c1c1;
+}
+
+.list__cell--number{
+    width: 8%;
+
+}
+.list__cell-container{
+    display: flex; 
+
+}
+.list__number{
+    margin: 2px;
+
+}
+
+.list__checkbox{  
+    padding: 0;
+    margin: 0;
+    background: none;
+    color: inherit;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    -o-appearance: none;
+    appearance: none;
+    cursor: pointer;
+    background-color: #fff;
+    margin: 5px 5px 5px 10px;
+    border: 1px solid #c1c1c1;
+    width: 15px;
+    height: 15px;
+    
+
+}
+
+.list__cell--buttons{
+    width: 12%;
+
+}
+
+
+.list__body{
+    width: 100%;
+}
+
+.list__header-title{
+    color: #6093E1;
+
+}
+.list__body tr:nth-child(even){
+    background-color: lightgrey;
+}      
+.list__header-inputs{
+    border: 1px solid #c1c1c1;
+    border-radius: 2px;
+    box-shadow: 0 0 4px rgba(0,0,0,0.5);
+
+}
+         
